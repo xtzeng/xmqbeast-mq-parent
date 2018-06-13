@@ -20,5 +20,6 @@
   <modules>
     <module>xmqbeast-mq-activemq</module>
     <module>xmqbeast-mq-rabbitmq</module>
+    <module>xmqbeast-mq-activemq2</module>
   </modules>
 </project>

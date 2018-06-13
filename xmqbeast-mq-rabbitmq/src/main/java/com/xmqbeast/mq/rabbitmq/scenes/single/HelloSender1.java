@@ -13,7 +13,8 @@ public class HelloSender1 {
     private AmqpTemplate rabbitTemplate;
 
     public void send() {
-        String sendMsg = "hello1 " + new Date();
+    	
+        String sendMsg = "【hello1-->>>>> 】" + new Date();
         System.out.println("Sender1 : " + sendMsg);
         this.rabbitTemplate.convertAndSend("helloQueue", sendMsg);
     }

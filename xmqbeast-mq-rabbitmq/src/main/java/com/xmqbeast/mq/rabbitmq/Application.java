@@ -23,7 +23,7 @@ public class Application {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.quick.mq.controller")) //扫描API的包路径
+                .apis(RequestHandlerSelectors.basePackage("com.xmqbeast.mq.controller")) //扫描API的包路径
                 .paths(PathSelectors.any())
                 .build();
     }

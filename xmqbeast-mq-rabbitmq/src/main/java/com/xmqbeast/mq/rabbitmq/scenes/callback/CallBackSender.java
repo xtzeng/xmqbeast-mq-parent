@@ -7,12 +7,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
-/**
- * @GitHub: https://github.com/vector4wang
- * @CSDN: http://blog.csdn.net/qqhjqs?viewmode=contents
- * @BLOG: http://vector4wang.tk
- * @wxid: BMHJQS
- */
 @Component
 public class CallBackSender implements  RabbitTemplate.ConfirmCallback{
 

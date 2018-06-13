@@ -4,11 +4,6 @@ import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-/**
- * @CSDN: http://blog.csdn.net/qqhjqs?viewmode=contents
- * @BLOG: http://vector4wang.tk
- * @wxid: BMHJQS
- */
 @Component
 public class FanoutSender {
 

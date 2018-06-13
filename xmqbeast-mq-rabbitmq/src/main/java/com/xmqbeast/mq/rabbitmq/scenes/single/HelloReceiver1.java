@@ -10,6 +10,7 @@ public class HelloReceiver1 {
 
     @RabbitHandler
     public void process(String hello) {
+    	
         System.out.println("Receiver1  : " + hello);
     }
 

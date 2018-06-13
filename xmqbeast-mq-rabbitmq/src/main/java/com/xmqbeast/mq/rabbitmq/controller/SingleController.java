@@ -17,6 +17,7 @@ public class SingleController {
 
     @Autowired
     private HelloSender1 helloSender1;
+    
     @Autowired
     private HelloSender1 helloSender2;
 
